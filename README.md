@@ -4,7 +4,7 @@ Deploy n8n workflow automation platform on Railway with PostgreSQL.
 
 ## 🚀 Quick Deploy
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template?template=https%3A%2F%2Fgithub.com%2Fandre%2Fn8n-railway&envs=N8N_BASIC_AUTH_ACTIVE%2CN8N_BASIC_AUTH_USER%2CN8N_BASIC_AUTH_PASSWORD%2CN8N_ENCRYPTION_KEY&N8N_BASIC_AUTH_ACTIVEDesc=Enable+basic+authentication&N8N_BASIC_AUTH_ACTIVEDefault=true&N8N_BASIC_AUTH_USERDesc=Basic+auth+username&N8N_BASIC_AUTH_USERDefault=admin&N8N_BASIC_AUTH_PASSWORDDesc=Basic+auth+password&N8N_ENCRYPTION_KEYDesc=Encryption+key+for+credentials+-+generate+a+unique+one!)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template?template=https%3A%2F%2Fgithub.com%2Fcofoundy%2Fn8n-railway&envs=N8N_BASIC_AUTH_ACTIVE%2CN8N_BASIC_AUTH_USER%2CN8N_BASIC_AUTH_PASSWORD%2CN8N_ENCRYPTION_KEY&N8N_BASIC_AUTH_ACTIVEDesc=Enable+basic+authentication&N8N_BASIC_AUTH_ACTIVEDefault=true&N8N_BASIC_AUTH_USERDesc=Basic+auth+username&N8N_BASIC_AUTH_USERDefault=admin&N8N_BASIC_AUTH_PASSWORDDesc=Basic+auth+password&N8N_ENCRYPTION_KEYDesc=Encryption+key+for+credentials+-+generate+a+unique+one!)
 
 ## 📋 Manual Deployment
 
@@ -83,7 +83,7 @@ Use docker-compose for local development:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/n8n-railway.git
+git clone git@github.com:cofoundy/n8n-railway.git
 cd n8n-railway
 
 # Start services
